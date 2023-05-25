@@ -1,0 +1,13 @@
+django==4.2
+djangorestframework
+pyyaml
+requests
+django-cors-headers
+pandas
+asgiref
+djongo
+pymongo==3.12.3
+pytz
+sqlparse
+typing-extensions
+boto3s
