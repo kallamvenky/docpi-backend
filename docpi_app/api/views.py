@@ -160,9 +160,9 @@ class sortAndFilter(APIView):
                     if df[col].dtypes == 'float32':
                         filterValue = np.float32(cols[col])
                     if df[col].dtypes == 'int32':
-                        filterValue = np.float32(cols[col])
+                        filterValue = np.int32(cols[col])
                     if df[col].dtypes == 'int64':
-                        filterValue = np.float32(cols[col])
+                        filterValue = np.int32(cols[col])
                     
                     df = df[(df[col]== filterValue)]
                     print(df.shape)
